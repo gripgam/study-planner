@@ -1,0 +1,14 @@
+{
+  "name": "study-planner-push-server",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": { "start": "node server.js", "dev": "node --watch server.js" },
+  "dependencies": {
+    "better-sqlite3": "^11.7.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "luxon": "^3.5.0",
+    "web-push": "^3.6.7"
+  }
+}

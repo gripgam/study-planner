@@ -1,0 +1,11 @@
+services:
+  push-api:
+    build: .
+    env_file: .env
+    ports:
+      - "3000:3000"
+    volumes:
+      - planner-data:/app/data
+    restart: unless-stopped
+volumes:
+  planner-data:
